@@ -1,0 +1,8 @@
+Opddracht 
+
+
+SELECT product.name, price , category.name AS category FROM product INNER JOIN category on product.category_id = category.category_id WHERE product.category_id = category.category_id AND category.active = 1 AND product.active = 1
+
+6-A
+
+SELECT customer_id, CONCAT(first_name,' ',middle_name,' ', last_name,' ',gender) AS full_name, CONCAT(street,' ',house_number) AS full_street, zip_code, city  FROM `customer` ORDER BY RAND() LIMIT 3

@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* background-color: red; */
+}
+
+.container {
+    max-width: 960px;
+    min-width: 320px;
+    width: 100%;
+    /* height: auto; */
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 75px;
+
+}
+
+.logo {
+    height: 100%;
+    width: 25%;
+    background-color: seagreen;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    width: 75%;
+    height: 75px;
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 5%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+
+
+}
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: violet;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* alles voor de index.php */
+
+
+.cat-img {
+    width: 100%;
+    height: 100%;
+
+    background-image: url();
+}
+
+
+/* alles voor de koop nu gedeelte */
+
+
+
+.section-category {
+    width: 100%;
+    height: 550px;
+    background-color: purple;
+}
+
+.titel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+    background-color: royalblue;
+}
+
+.wrapper {
+    height: 500px;
+    width: 100%;
+    background-color: salmon;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.article-category {
+    width: 100%;
+    height: 250px;
+    border: solid;
+
+    /* background-image: url('/assets/img/img_category/$img'); */
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* alles voor de random producten gedeelte */
+
+.section-random {
+    height: 350px;
+    width: 100%;
+    background-color: skyblue;
+}
+
+.wrapper-random {
+    height: 300px;
+    width: 100%;
+    background-color: springgreen;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+}
+
+.article-random {
+    height: 100%;
+    width: 320px;
+    border: solid;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-a {
+
+    color: black;
+    text-decoration: none;
+    font-size: 100%;
+    /* background-color: yellow; */
+
+    width: 50%;
+    height: 50%;
+
+}
+
+.category-a:hover {
+    color: yellow;
+}
+
+/* alles voor de products.php */
+
+.id-hidden {
+    display: none;
+}
+
+.section-products {
+    height: auto;
+    width: 100%;
+    background-color: pink;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: center; */
+
+}
+
+.product-block {
+    width: 320px;
+    height: 240px;
+    background-color: powderblue;
+    border: solid 0.5px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* alles voor de detail.php */
+
+.detail-img {
+    min-width: 320px;
+    width: 60%;
+    height: 60%;
+    background-color: pink;
+}
+
+
+.detail-section {
+    height: 500px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+}
+
+.detail-container-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.detail-container-rechts {
+    width: 50%;
+    height: 100%;
+    background-color: burlywood;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bestel-img {
+    min-width: 320px;
+    width: 60%;
+    height: 60%;
+    background-color: purple;
+}
+
+.random-products-a {
+    color: black;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.bestel-knop {
+    width: 100px;
+    height: 50px;
+    border: solid;
+    background-color: sandybrown;
+    font-size: large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+/* alles voor de bestel.php */
+
+.bestel-section {
+    height: 500px;
+    width: 100%;
+    background-color: lightblue;
+
+    display: flex;
+}
+
+.form-container {
+    width: 50%;
+    height: 100%;
+}
+
+form {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
+
+input {
+    width: 50%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.product-overzicht {
+    width: 50%;
+    height: 100%;
+    border: solid;
+
+}
+
+.product-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#melding {
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* vanaf 960px */
+
+@media only screen and (max-width: 959px) {
+    .article-random {
+        width: 100%;
+        height: 200px;
+        /* height: 300px; */
+    }
+
+    .wrapper-random {
+        display: inherit;
+        height: 600px;
+    }
+
+    .section-random {
+        height: auto;
+    }
+
+
+    /* alles voor products.php */
+
+    .section-products {
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    .detail-section {
+        display: inherit;
+        height: auto;
+    }
+
+    .detail-container-left {
+        width: 100%;
+        height: 600px;
+    }
+
+    img {
+        height: 80%;
+    }
+
+    .detail-container-rechts {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* alles voor de bestelpagina */
+
+    .bestel-section {
+        display: inherit;
+        height: auto;
+    }
+
+    .product-overzicht {
+        width: 100%;
+        height: 500px;
+    }
+
+    .form-container {
+        height: 500px;
+        width: 100%;
+    }
+
+
+
+
+}
+
+/* vanaf 500px */
+
+@media only screen and (max-width: 500px) {
+    .section-category {
+        height: auto;
+    }
+
+    .wrapper {
+        display: inherit;
+        height: auto;
+    }
+
+    .article-category {
+        width: 100%;
+    }
+}
